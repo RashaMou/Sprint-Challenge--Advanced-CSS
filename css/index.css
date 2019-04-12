@@ -160,6 +160,27 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  text-align: center;
+  background-color: #F6F6F6;
+  border-bottom: 5px solid #F1F1F1;
+}
+.navigation h1 {
+  font-size: 4.2rem;
+  padding: 20px 0;
+  color: #23293B;
+}
+.navigation nav {
+  padding-bottom: 10px;
+}
+.navigation a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #454A59;
+}
+.navigation a:not(:first-child) {
+  padding-left: 2.4%;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -175,6 +196,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro .header-img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;

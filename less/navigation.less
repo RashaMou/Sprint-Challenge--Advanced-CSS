@@ -1,1 +1,26 @@
 // Navigation code here
+
+.navigation {
+  text-align: center;
+  background-color: @nav-bg;
+  border-bottom: 5px solid @nav-border;
+
+  h1 {
+    font-size: 4.2rem;
+    padding: 20px 0;
+    color: @header-font-color;
+  }
+
+  nav {
+    padding-bottom: 10px;
+  }  
+
+  a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: @nav-font;
+    &:not(:first-child) {
+      padding-left: 2.4%;
+    }
+  }
+}
