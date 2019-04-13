@@ -18,8 +18,20 @@
     text-decoration: none;
     font-size: 1.7rem;
     color: @nav-font;
+    border: 1px solid transparent;
+    &:hover {
+      text-shadow: 0.08rem 0.08rem @footer-font-color;
+      cursor: pointer;
+    }
+    
     &:not(:first-child) {
       padding-left: 2.4%;
+    }
+
+    @media @phone {
+      &:not(:first-child) {
+        padding-left: 7%;
+      }
     }
   }
 }

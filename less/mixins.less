@@ -8,9 +8,13 @@
   border: none;
   padding: 2% 5%;
   .space-font();
+  transition-property: background-color;
+  transition-timing-function: ease-out;
+  transition-duration: 2s;
   &:hover {
     background-color: @font-color;
     color: @bg-color;
+    cursor: pointer;
   }
 }
 
@@ -22,3 +26,8 @@
   font-size: 4.2rem;
   color: @header-font-color;
 } 
+
+.full-size-img() {
+  width: 100%;
+  height: auto;
+}
