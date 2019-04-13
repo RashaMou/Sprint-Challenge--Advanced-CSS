@@ -167,8 +167,8 @@ p {
 }
 .navigation h1 {
   font-size: 4.2rem;
-  padding: 20px 0;
   color: #23293B;
+  padding: 20px 0;
 }
 .navigation nav {
   padding-bottom: 10px;
@@ -235,6 +235,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #23293B;
+  color: #F1F1F1;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  border: none;
+  padding: 2% 5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F1F1F1;
+  color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;

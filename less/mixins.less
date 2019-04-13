@@ -1,1 +1,24 @@
 // Mixins Here
+
+.btn-style (@bg-color, @font-color) {
+  background-color: @bg-color;
+  color: @font-color;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  border: none;
+  padding: 2% 5%;
+  .space-font();
+  &:hover {
+    background-color: @font-color;
+    color: @bg-color;
+  }
+}
+
+.space-font() {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.headings() {
+  font-size: 4.2rem;
+  color: @header-font-color;
+} 
