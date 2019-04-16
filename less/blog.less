@@ -1,0 +1,49 @@
+
+main.blog {
+  padding-top: 20px;
+}
+  
+.blog-post {
+  margin-bottom: 40px;
+  padding-top: 15px;
+
+  h2 {
+    padding-bottom: 20px;
+  }
+
+  .blog-h2 {
+    border-bottom: 2px dashed @nav-font;
+    margin-bottom: 20px;
+  }
+
+  .blog-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .blog-content {
+    display: flex;
+  }
+
+  .even-blog {
+    flex-direction: row-reverse;
+    .blog-text-container {
+      padding-right: 10px;
+    }
+  }
+
+  .odd-blog {
+    .blog-text-container {
+      padding-left: 15px;
+    }
+  }
+
+  button.read-more {
+    .btn-style (@header-font-color, @nav-border);
+    padding: 1%;
+    margin-top: 15px;
+  }
+}
+
+

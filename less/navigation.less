@@ -1,1 +1,37 @@
 // Navigation code here
+
+.navigation {
+  text-align: center;
+  background-color: @nav-bg;
+  border-bottom: 5px solid @nav-border;
+
+  h1 {
+    .headings();
+    padding: 20px 0;
+  }
+
+  nav {
+    padding-bottom: 10px;
+  }  
+
+  a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: @nav-font;
+    border: 1px solid transparent;
+    &:hover {
+      text-shadow: 0.08rem 0.08rem @footer-font-color;
+      cursor: pointer;
+    }
+    
+    &:not(:first-child) {
+      padding-left: 2.4%;
+    }
+
+    @media @phone {
+      &:not(:first-child) {
+        padding-left: 7%;
+      }
+    }
+  }
+}

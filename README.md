@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website has multiple versions that are tailor made for a number of preset device dimensions. A fully responsive website takes the adaptive principle, which is that websites ought to be optimized for different device widths, and adds a flexible layout that automatically resizes depending on the viewport width. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile-first approach designs layouts for small devices first and then sizes up, whereas a desktop-first approach is the more traditional practice of designing full-size layouts first and then adjusting the layout as the viewport decreases in size.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting the font to 62.5% in the html tag makes it easier to calculate the pixel equivalent of rem units. The default font-size (100%) of the html in most browsers is 16px, which is the equivalent of 1rem. This makes calculating rems a little more cumbersome (2rem = 32px, 2.5 rem= 40px, etc). Setting the font size to 62.5% sets the default to be 10px (=1rem), which is much easier to work with (1.6em = 16px, 2.7em = 27px, etc.).
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A preprocessor is a program that extends the functionality of your CSS. It allows you to write your CSS in the preprocessor's own syntax (which the browser does not understand) and take advantage of its added functionality and then automatically converts it to vanilla CSS that the browser can understand.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+All of the concepts work together so well that it's hard to choose one concept. But if pressed, I would say I like nesting the best because disorganized code 
+really bothers me. It also makes everything much more readable.
+
+I wouldn't say that paramteric mixins are giving me trouble, but they are the most complex of the preprocessor concepts we've covered - which also makes them the most flexible and useful.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
